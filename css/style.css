@@ -1,8 +1,30 @@
-.header{
+.whole-page{
+display: flex;
+}
+
+body{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.nav-bar{
+	justify-content: space-between;
+	
+}
+
+ul{
 
 }
 
-#googleAppsBtn{
-	background-image: https://ssl.gstatic.com/gb/images/i1_1967ca6a.png
-	
+li{
+	display: inline;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
