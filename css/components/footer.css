@@ -1,0 +1,13 @@
+.foot{
+	display: flex;
+	justify-content: space-between;
+}
+
+.foot-items{
+	display: flex;
+}
+
+.foot-items li{
+	margin: 0px 13px 10px 0px;
+	font-size: 13px;
+}

@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Google Homepage</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
-<body>
+
 <!--
 Pseudocode:
 
@@ -43,49 +44,64 @@ Main body
 				Terms
 				Settings
 -->
-<div class="whole-page">
-	<nav class = nav-bar>
-		<ul>
-			<li><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-			<li><a href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
-		</ul>
-		<ul>
-			<li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-			<li><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-			<li><a href=""></a></li>
-		</ul>	
-	</nav>
 
-	<div class="Main">
+
+<body>
+<div class="page">
+	 <div class="header">	
+			<ul class ="nav">
+				<div class ="nav-items">
+			  		<li><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+
+			  		<li><a href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
+
+				</div>
+				<div class ="nav-items">
+
+			  		<li class="nav-push"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+
+			  		<li><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+
+			  		<li><a href=""><img src="http://placehold.it/50x50" alt="" class="button"></a></li>
+
+			  		<li><a href=""><img class ="avatar" src="http://placehold.it/50x50" alt=""></a></li>
+				</div>		
+			</ul>
+	</div>
+	<div class="main">
 		<div class="logo">
 			<img src="css/images/googleLogo.png">		
 		</div>
 
-		<form>
-			<input type="text" name="searchBar">
-		</form>
-
-		<div class="twoButtons">
-		
+		<div class="search">
 		</div>
+
+		<div class="twobuttons">
+			<button type="button">Google Search</button>
+			<button type="button">I'm Feeling Lucky</button>
+		</div>
+
 		<div class="languages">
-			"Google offered in: "<a href="#">Language</a>
+			<p> Google offered in: <a href="#"> Language</a></p>
 		</div>
 	</div>
-</div>
 
-<footer>
-	<nav class="botNav">
-		<ul>
-			<li><a href="#"></a>Advertising</li>
-			<li><a href="#"></a>Business</li>
-			<li><a href="#"></a>How Search Works</li>
-		</ul>
-		<ul>
-			<li><a href="#"></a>Privacy</li>
-			<li><a href="#"></a>Terms</li>
-			<li><a href="#"></a>Settings</li>
-		</ul>
-	</nav>
-</footer>
+
+	<div class="footer">
+			<ul class="foot">
+				<div class="foot-items">
+				  <li><a href="#"></a>Advertising</li>
+				  <li><a href="#"></a>Business</li>
+				  <li><a href="#"></a>How Search Works</li>
+				</div>
+
+				<div class="foot-items">
+				  <li><a href="#"></a>Privacy</li>
+				  <li><a href="#"></a>Terms</li>
+				  <li><a href="#"></a>Settings</li>
+				</div>
+			</ul>
+	</div>
+</div>
+</body>
 </html>
