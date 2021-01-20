@@ -5,11 +5,13 @@
 
 .nav-items{
 	display: flex;
-
+	align-items: center;
+	position: relative;
+	bottom: 15px;
 }
 
 .nav-items li{
-	margin: 0px 13px 10px 0px;
+	margin: 0px 10px 10px 0px;
 	font-size: 13px;
 }
 
@@ -20,8 +22,4 @@
 
 .nav-items a:hover{
 	text-decoration: underline;
-}
-
-.avatar{
-	border-radius: 50%;
 }
