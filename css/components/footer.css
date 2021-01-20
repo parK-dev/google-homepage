@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	background: #f2f2f2;
-    line-height: 40px;
+    line-height: 30px;
 	border-top: 1px solid #dadce0;
 	position: fixed;
 	bottom:0;
@@ -17,6 +17,17 @@
 	margin: 0px 13px 10px 0px;
 	font-size: 15px;
 	color: rgba(0,0,0,.54)
+}
+
+.foot-items a{
+	margin: 0px 13px 10px 0px;
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	text-decoration: none;
+}
+
+.foot-items a:hover{
+	text-decoration: underline;
 }
 
 .country{
