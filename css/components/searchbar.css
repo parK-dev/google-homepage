@@ -1,16 +1,13 @@
 .search{
+  background: #fff;
   display: flex;
-  justify-content: space-around;
-  color: #4A4A4A;
-  border: 1px solid #4A4A4A;
-  padding: 18px 24px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
-  width: 400px;
-  align-self: center;
-  margin: 20px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 535px;
 }
 
 .search:hover{
