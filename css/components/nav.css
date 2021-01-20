@@ -8,6 +8,7 @@
 	align-items: center;
 	position: relative;
 	bottom: 15px;
+	padding-top: 8px;
 }
 
 .nav-items li{

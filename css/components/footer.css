@@ -1,6 +1,12 @@
 .foot{
 	display: flex;
 	justify-content: space-between;
+	background: #f2f2f2;
+    line-height: 40px;
+	border-top: 1px solid #dadce0;
+	position: fixed;
+	bottom:0;
+	width: 98%;
 }
 
 .foot-items{
@@ -9,5 +15,23 @@
 
 .foot-items li{
 	margin: 0px 13px 10px 0px;
-	font-size: 13px;
+	font-size: 15px;
+	color: rgba(0,0,0,.54)
+}
+
+.country{
+	background: #f2f2f2;
+	border-top: 1px solid #dadce0;
+	position: fixed;
+	bottom: 40px;
+	width: 98%;
+	margin: auto;
+	
+
+}
+.country li{
+	display: flex;
+	margin: 0px 13px 10px 0px;
+	font-size: 15px;
+	color: rgba(0,0,0,.54)
 }
